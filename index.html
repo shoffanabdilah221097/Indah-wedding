@@ -304,8 +304,8 @@
 
           <div class="col-12">
             <div class="mb-3">
-              <label for="jumlah" class="form-label">Jumlah</label>
-              <input type="number" class="form-control" id="jumlah" name="jumlah" min="1" max="5" length="1" value="1" />
+              <label for="jumlah" class="form-label">Ucapan</label>
+              <input type="text" class="form-control" id="ucapan" name="ucapan" />
             </div>
           </div>
 
@@ -325,7 +325,7 @@
           </div>
         </form>
 
-        <div class="row justify-content-center mt-5">
+        <!-- <div class="row justify-content-center mt-5">
           <div class="col-md-6">
             <div id="disqus_thread"></div>
             <script>
@@ -349,7 +349,7 @@
             </script>
             <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
     <!-- Rsvp End -->
@@ -484,7 +484,6 @@
       function enableScroll() {
         window.onscroll = function () {
           rootElement.style.scrollBehavior = "smooth";
-          // localStorage.setItem("opened", "true");
           playAudio();
         };
       }
@@ -510,9 +509,6 @@
         isPlaying = !isPlaying;
       };
 
-      // if (!localStorage.getItem("opened")) {
-      //   disableScroll();
-      // }
       disableScroll();
     </script>
 
