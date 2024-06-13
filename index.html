@@ -468,7 +468,7 @@
       const audioIconWrapper = document.querySelector(".audio-icon-wrapper");
       const song = document.querySelector("#song");
       const audioIcon = document.querySelector(".audio-icon-wrapper i");
-      let isPlaying = false;
+      let isPlaying = true;
 
       function disableScroll() {
         scrollTop = window.pageYOffset || document.documentElement.scrollTop;
@@ -491,8 +491,11 @@
       function playAudio() {
         song.volume = 0.07;
         audioIconWrapper.style.display = "flex";
-        song.play();
-        isPlaying = true;
+        if (isPlaying) {
+          song.play();
+        }
+        // song.play();
+        // isPlaying = true;
       }
 
       audioIconWrapper.onclick = function () {
