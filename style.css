@@ -262,7 +262,7 @@ body {
 
 .timeline li .timeline-panel {
   width: 40%;
-  /* float: left;  */
+  /* float: left; */
   border: 1px solid #ccc;
   padding: 2rem;
   position: relative;
