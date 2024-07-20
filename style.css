@@ -538,4 +538,8 @@ footer li {
   .home .couple .image {
     margin-top: 20px;
   }
+
+  .rsvp form #ucapan {
+    height: 100px;
+  }
 }
