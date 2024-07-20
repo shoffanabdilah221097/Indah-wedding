@@ -521,6 +521,10 @@ footer li {
   .home .couple .image {
     margin-top: 20px;
   }
+
+  .rsvp form #ucapan {
+    height: 80px;
+  }
 }
 
 /* mobile phone 2 */
@@ -540,6 +544,6 @@ footer li {
   }
 
   .rsvp form #ucapan {
-    height: 100px;
+    height: 80px;
   }
 }
